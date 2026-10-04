@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Glowing Text & Element Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Dynamic / Animated Background Graphics (Behind text & foreground) -->
+  <g opacity="0.25">
+    <!-- Grid Overlay -->
+    <path d="M 0,60 L 1200,60 M 0,120 L 1200,120 M 0,180 L 1200,180 M 0,240 L 1200,240 M 0,300 L 1200,300" stroke="#475569" stroke-width="1" stroke-dasharray="4 4" />
+    <path d="M 200,0 L 200,360 M 400,0 L 400,360 M 600,0 L 600,360 M 800,0 L 800,360 M 1000,0 L 1000,360" stroke="#475569" stroke-width="1" stroke-dasharray="4 4" />
+
+    <!-- Animated Pulse Rings (Subtle dynamic background) -->
+    <circle cx="1050" cy="180" r="140" fill="none" stroke="#6366f1" stroke-width="2">
+      <animate attributeName="r" values="120;160;120" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="90" r="80" fill="none" stroke="#38bdf8" stroke-width="1.5">
+      <animate attributeName="r" values="70;100;70" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Animated Decorative Chart Bars (Positioned right side, background level) -->
+  <g opacity="0.45" transform="translate(820, 100)">
+    <rect x="0" y="60" width="36" height="140" rx="6" fill="url(#barGrad1)">
+      <animate attributeName="height" values="140;170;140" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="60;30;60" dur="4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="52" y="20" width="36" height="180" rx="6" fill="url(#barGrad2)">
+      <animate attributeName="height" values="180;130;180" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="20;70;20" dur="5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="104" y="90" width="36" height="110" rx="6" fill="url(#barGrad1)">
+      <animate attributeName="height" values="110;150;110" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="90;50;90" dur="3.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="156" y="40" width="36" height="160" rx="6" fill="url(#barGrad3)">
+      <animate attributeName="height" values="160;190;160" dur="4.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="40;10;40" dur="4.5s" repeatCount="indefinite" />
+    </rect>
+    <!-- Animated Trend Line -->
+    <path d="M 18,100 Q 70,10 122,80 T 174,30" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+      <animate attributeName="d" values="M 18,100 Q 70,10 122,80 T 174,30; M 18,80 Q 70,50 122,40 T 174,20; M 18,100 Q 70,10 122,80 T 174,30" dur="6s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- FOREGROUND CONTENT (Title, Badges, Subtitle) - Guarantees High Contrast & Visibility -->
+  <!-- Top Category Tag -->
+  <g transform="translate(80, 65)">
+    <rect width="250" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+    <text x="125" y="21" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">
+      ⚡ AWESOME CURATED LIST
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="145" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#glow)">
+    Business Intelligence &amp; Analytics
+  </text>
+
+  <!-- Subtitle Description -->
+  <text x="80" y="195" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" width="700">
+    Curated SaaS Platforms, Semantic Layers, Embedded Analytics &amp; Warehouse-Native Open-Source BI
+  </text>
+
+  <!-- Feature Pills / Badges (Foreground) -->
+  <g transform="translate(80, 240)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="160" height="36" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="80" y="23" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+        📊 Self-Service BI
+      </text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(172, 0)">
+      <rect width="170" height="36" rx="8" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5" />
+      <text x="85" y="23" fill="#a78bfa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+        🧠 Semantic Layers
+      </text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(354, 0)">
+      <rect width="180" height="36" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+      <text x="90" y="23" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+        🔓 Open-Source First
+      </text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(546, 0)">
+      <rect width="175" height="36" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="87" y="23" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+        ⚡ Warehouse-Native
+      </text>
+    </g>
+  </g>
+</svg>
