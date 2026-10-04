@@ -88,13 +88,13 @@ This section documents these production-grade solutions.
 ### 🌟 Full-Featured BI Platforms
 
 - **Apache Superset** ⭐  
-  The most widely adopted open-source BI platform. Apache-2.0 licensed, 65,000+ GitHub stars.  
+  The most widely adopted open-source BI platform. Apache-2.0 licensed, 65,000+ GitHub_Stars.  
   *Key features:* 40+ native warehouse connectors including Snowflake, BigQuery, Databricks, Redshift, ClickHouse, Trino, and Druid; stateless web tier scales horizontally for embedded use cases with thousands of concurrent users; semantic layer built around datasets and metrics that compile to warehouse SQL; dbt manifest support surfaces dbt models, descriptions, and exposures; row-level security and LDAP integration for enterprise deployment.  
   *Tradeoffs:* Steeper learning curve; requires technical expertise to deploy and maintain.  
   *Best for:* Technical teams needing advanced analytics, broad warehouse coverage, and embedded analytics at scale.
 
 - **Metabase** 🟢  
-  The easiest open-source BI tool to deploy and use. AGPL-3.0 licensed, 40,000+ GitHub stars.  
+  The easiest open-source BI tool to deploy and use. AGPL-3.0 licensed, 40,000+ GitHub_Stars.  
   *Key features:* No-code query builder for non-technical users; SQL editor for advanced users; email and Slack alerts for automated reporting; connects to SQL and NoSQL databases; self-hosted or cloud deployment. Performance: Can query data within 5 minutes of installation.  
   *Tradeoffs:* Limited visualization options compared to Superset; advanced features require paid plans.  
   *Best for:* Startups and small teams wanting a simple, user-friendly interface without sacrificing functionality.
@@ -106,7 +106,7 @@ This section documents these production-grade solutions.
   *Best for:* Data teams already using dbt wanting a governed, code-first BI layer.
 
 - **DataEase** 🎨  
-  Popular open-source BI tool positioned as a Tableau alternative. GPL-3.0 licensed, 25,000+ GitHub stars.  
+  Popular open-source BI tool positioned as a Tableau alternative. GPL-3.0 licensed, 25,000+ GitHub_Stars.  
   *Key features:* Drag-and-drop dashboard building; multi-source data connection; self-service analytics.  
   *Best for:* Teams wanting a modern, visually polished open-source BI experience.
 
@@ -155,7 +155,7 @@ This section documents these production-grade solutions.
   *Best for:* Non-technical users wanting to build dashboards without code.
 
 - **Grafana** 📈  
-  Open-source analytics and monitoring platform with strong time-series visualization. AGPL-3.0 licensed, 65,000+ GitHub stars.  
+  Open-source analytics and monitoring platform with strong time-series visualization. AGPL-3.0 licensed, 65,000+ GitHub_Stars.  
   *Key features:* Real-time data visualization; multi-source support (MySQL, PostgreSQL, Elasticsearch, Prometheus); customizable dashboards with alerting; thousands of plugins; native macOS support.  
   *Tradeoffs:* Less suitable for traditional business reporting; focuses on time-series data.  
   *Best for:* Teams monitoring operational metrics, IoT data, or time-series business data.
