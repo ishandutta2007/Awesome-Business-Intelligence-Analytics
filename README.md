@@ -53,9 +53,9 @@ Commercial Business Intelligence platforms sorted by company scale (Valuation / 
 
 ## 🔓 Open-Source GitHub BI Projects
 
-Open-source BI platforms, semantic engines, and reporting frameworks sorted by **GitHub Stars** (descending):
+Open-source BI platforms, semantic engines, and reporting frameworks sorted by **GitHub_Stars** (descending):
 
-| Project | GitHub Stars 🌟 | License 📄 | Key Features & Architecture ⚡ | Best For 🎯 |
+| Project | GitHub_Stars 🌟 | License 📄 | Key Features & Architecture ⚡ | Best For 🎯 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Grafana](https://github.com/grafana/grafana)** 📈 | [<img src="https://img.shields.io/github/stars/grafana/grafana?style=social&color=white" alt="Grafana Stars"/>](https://github.com/grafana/grafana/stargazers) | AGPL-3.0 | Operational dashboards, real-time time-series visualization, Prometheus/SQL plugins, alerting engine | Infrastructure monitoring, APM metrics, IoT, and real-time operational BI |
 | **[Apache Superset](https://github.com/apache/superset)** 🔷 | [<img src="https://img.shields.io/github/stars/apache/superset?style=social&color=white" alt="Superset Stars"/>](https://github.com/apache/superset/stargazers) | Apache-2.0 | 40+ warehouse SQL connectors, stateless cloud-native horizontal scaling, Jinja SQL templating, fine-grained RLS | Enterprise-grade self-service BI and high-concurrency embedded analytics dashboards |
