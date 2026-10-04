@@ -1,233 +1,109 @@
 # 📊 Awesome-Business-Intelligence-Analytics
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+![Awesome Business Intelligence & Analytics Header Banner](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Business-Intelligence-Analytics"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Business-Intelligence-Analytics?style=flat-square&logo=github" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Business-Intelligence-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Business-Intelligence-Analytics?style=flat-square&logo=github" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Business-Intelligence-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Business-Intelligence-Analytics?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 > **Awesome-Business-Intelligence-Analytics**  
 > *A Curated List of SaaS Products & Open-Source GitHub Projects Focused on Self-Service Dashboards, Semantic Layers, Embedded Analytics & Warehouse-Native BI*  
 > **📅 Last updated:** October 2026
 
-This repository tracks notable SaaS platforms and open-source projects for Business Intelligence & Analytics. These tools help organizations visualize data, build dashboards, define governed metrics, and embed analytics into products.
-
-**Examples include:** Microsoft Power BI, Tableau, Looker, Qlik Sense, Domo, Sisense, Metabase, ThoughtSpot, Mode Analytics, and GoodData (the category leaders).
-
-⚡ **Open-source emphasis:** Business intelligence has one of the most mature open-source ecosystems in data software.
-- **Apache Superset** leads with the broadest warehouse coverage (40+ connectors) and stateless horizontal scaling for embedded use cases.
-- **Metabase** is the fastest to deploy, letting users query data within 5 minutes of installation.
-- **Lightdash** is the open-source Looker alternative, keeping all business logic in dbt YAML with automatic dimension creation.
-- **Rill** brings agent-first BI-as-code (YAML + SQL) powered by ClickHouse and DuckDB.
-- **Helical Insight** delivers AI conversational analytics (BYO-LLM) with pixel-perfect paginated reports and 360+ APIs.
-- **DataEase** offers a Tableau alternative with 25k+ stars.
-
-This section documents these production-grade solutions.
-
-🤝 **Contributions welcome!** Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Welcome to the definitive, SEO-optimized curated directory of **Business Intelligence (BI) & Data Analytics platforms**. Whether you are an enterprise data architect, BI engineer, analytics leader, or startup developer, this list covers leading commercial SaaS products and open-source data visualization software for building self-service dashboards, governed semantic layers, embedded customer analytics, and warehouse-native reporting.
 
 ---
 
 ## 📌 Table of Contents
-- ☁️ [SaaS/Hosted Platforms](#️-saashosted-platforms)
-- 🔓 [Open-Source GitHub Projects](#-open-source-github-projects)
+- 📈 [Market Landscape & Size](#-market-landscape--size)
+- ☁️ [SaaS & Hosted BI Platforms](#️-saas--hosted-bi-platforms)
+- 🔓 [Open-Source GitHub BI Projects](#-open-source-github-bi-projects)
 - 🤝 [How to Contribute](#-how-to-contribute)
 - 💖 [Support](#-support)
 - ⚠️ [Disclaimer](#️-disclaimer)
-- 🌟 [Star History](#-star-history)
+- 📈 [Star History](#-star-history)
 
 ---
 
-## ☁️ SaaS/Hosted Platforms
+## 📈 Market Landscape & Size
 
-- **Microsoft Power BI** 🔷  
-  Microsoft's BI platform with deep Office and Azure integration.  
-  *Pricing:* Pro $10/user/month; Premium Per User $20/user/month; Embedded capacity-based.  
-  *Best for:* Organizations already in the Microsoft ecosystem.
+The global **Business Intelligence & Analytics market size** is estimated at **$33.2 Billion in 2026** (projected to reach over $54 Billion by 2030 at a ~10.4% CAGR). 
 
-- **Tableau** 📊  
-  The visualization leader with the most polished drag-and-drop experience.  
-  *Pricing:* $15/user/month (Viewer), $42/user/month (Explorer), $75/user/month (Creator). A typical 50-user mix runs **~$63,500/year**.  
-  *Best for:* Organizations prioritizing visualization quality and analyst productivity.
-
-- **Looker** 🔍  
-  Google's BI platform with LookML semantic modeling.  
-  *Pricing:* Annual commitment, typically $60,000–$120,000/year for mid-size deployments.  
-  *Best for:* Organizations wanting a governed semantic layer with strong data modeling.
-
-- **Qlik Sense** 🧩  
-  Associative analytics engine enabling free-form exploration.  
-  *Pricing:* Enterprise contact sales; typical mid-size deployment $60,000–$150,000/year.  
-  *Best for:* Exploratory analytics where relationships matter.
-
-- **Domo** 🚀  
-  All-in-one BI platform with ETL, storage, and visualization.  
-  *Pricing:* Consumption credits + per-user, ~$30,000/year minimum; typical contract **~$134,000/year**.  
-  *Best for:* Teams wanting to replace separate ETL and visualization tools.
-
-- **Sisense** ⚡  
-  Embedded analytics specialist with In-Chip processing.  
-  *Pricing:* $999/month (Starter, 100K rows), **$1,499/month (Pro, 500M rows)**.  
-  *Best for:* White-label analytics embedded in software products.
-
-- **ThoughtSpot** 💡  
-  Search-driven analytics platform with AI-powered insights.  
-  *Pricing:* Enterprise contact sales; typically $95,000–$150,000/year for mid-size deployments.  
-  *Best for:* Non-technical users wanting natural language search over data.
-
-- **Mode Analytics** 📈  
-  Collaborative analytics platform uniting SQL, Python, and R.  
-  *Pricing:* Enterprise contact sales.  
-  *Best for:* SQL-heavy data teams needing notebook-style workflows.
-
-- **GoodData** 🛠️  
-  Developer-first embedded analytics platform with React-based SDK.  
-  *Pricing:* $1,500/month for embedded analytics.  
-  *Best for:* SaaS vendors embedding analytics with full UI control.
+The sector is **moderately fragmented**: mega-cap hyper-scalers (Microsoft Power BI, Salesforce Tableau, Google Looker) capture over 65% of large enterprise workloads, but specialized SaaS providers (ThoughtSpot, Sisense, Domo) and rapidly expanding warehouse-native open-source solutions (Apache Superset, Metabase, Cube, Lightdash) thrive by capturing developer-first embedded analytics, semantic modeling, and cost-effective self-hosted BI pipelines.
 
 ---
 
-## 🔓 Open-Source GitHub Projects
+## ☁️ SaaS & Hosted BI Platforms
 
-### 🌟 Full-Featured BI Platforms
+Commercial Business Intelligence platforms sorted by company scale (Valuation / Revenue):
 
-- **Apache Superset** ⭐  
-  The most widely adopted open-source BI platform. Apache-2.0 licensed, 65,000+ GitHub_Stars.  
-  *Key features:* 40+ native warehouse connectors including Snowflake, BigQuery, Databricks, Redshift, ClickHouse, Trino, and Druid; stateless web tier scales horizontally for embedded use cases with thousands of concurrent users; semantic layer built around datasets and metrics that compile to warehouse SQL; dbt manifest support surfaces dbt models, descriptions, and exposures; row-level security and LDAP integration for enterprise deployment.  
-  *Tradeoffs:* Steeper learning curve; requires technical expertise to deploy and maintain.  
-  *Best for:* Technical teams needing advanced analytics, broad warehouse coverage, and embedded analytics at scale.
-
-- **Metabase** 🟢  
-  The easiest open-source BI tool to deploy and use. AGPL-3.0 licensed, 40,000+ GitHub_Stars.  
-  *Key features:* No-code query builder for non-technical users; SQL editor for advanced users; email and Slack alerts for automated reporting; connects to SQL and NoSQL databases; self-hosted or cloud deployment. Performance: Can query data within 5 minutes of installation.  
-  *Tradeoffs:* Limited visualization options compared to Superset; advanced features require paid plans.  
-  *Best for:* Startups and small teams wanting a simple, user-friendly interface without sacrificing functionality.
-
-- **Lightdash** ⚡  
-  The open-source Looker alternative fully integrated with dbt. MIT licensed.  
-  *Key features:* Declare dimensions and metrics in YAML alongside your dbt project; automatically creates dimensions from dbt models; all dbt descriptions synced for end users; table calculations for on-the-fly analysis; lineage showing upstream and downstream dependencies; save charts and build dashboards. 1-click deploy via Heroku; Docker image available.  
-  *Tradeoffs:* Requires dbt project; smaller community than Superset or Metabase.  
-  *Best for:* Data teams already using dbt wanting a governed, code-first BI layer.
-
-- **DataEase** 🎨  
-  Popular open-source BI tool positioned as a Tableau alternative. GPL-3.0 licensed, 25,000+ GitHub_Stars.  
-  *Key features:* Drag-and-drop dashboard building; multi-source data connection; self-service analytics.  
-  *Best for:* Teams wanting a modern, visually polished open-source BI experience.
-
-- **Helical Insight** 🤖  
-  Free, open-source BI platform with AI conversational analytics (BYO-LLM) and pixel-perfect paginated reports. AGPL-3.0 licensed.  
-  *Key features:* Instant BI (AI & NLP powered) — type questions in plain English to generate charts and dashboards; pixel-perfect canned reporting for invoices, bank statements, and P&L sheets; self-service drag-and-drop dashboard designer; extensive database support (RDBMS, NoSQL, Big Data, cloud warehouses, flat files); API-driven framework with 360+ backend and frontend APIs; four-level data security (Organization, Role, User, Profile) with SSO (JWT) support.  
-  *Deployment:* `docker compose up -d`, login hiadmin/hiadmin.  
-  *Best for:* Organizations wanting AI-powered analytics and traditional pixel-perfect reporting in one platform.
+| Product | Scale (Valuation / Annual Revenue) 🏢 | Pricing 💰 | Free Tier / Trial Limit 🎁 | Best For 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** 🔷 | **~$3.1 Trillion** *(Microsoft Corp parent valuation)* | Pro plan starting at **$10/user/month**; Premium Per User at **$20/user/month** | Free Power BI Desktop version (local editing, published reports require Pro); Fabric 60-day free trial | Enterprise BI with deep Microsoft 365, Teams, and Azure ecosystem integration |
+| **[Looker (Google Cloud)](https://cloud.google.com/looker)** 🔍 | **~$2.1 Trillion** *(Alphabet parent valuation; acquired Looker for $2.6B)* | Custom enterprise contracts starting at **~$3,000/month** (~$36,000/year base platform fee + user licenses) | 30-day Google Cloud free trial with $300 free credits | Centralized governance with LookML semantic layer modeling on cloud warehouses |
+| **[Tableau (Salesforce)](https://www.tableau.com/)** 📊 | **~$280 Billion** *(Salesforce parent valuation; acquired Tableau for $15.7B)* | Viewer **$15/user/month**, Explorer **$42/user/month**, Creator **$75/user/month** (billed annually) | 14-day full feature free trial; Tableau Public offers free unlimited public visualization hosting | High-end, pixel-perfect interactive visualizations and analyst drag-and-drop exploration |
+| **[Qlik Sense](https://www.qlik.com/)** 🧩 | **~$10 Billion** *(Estimated Valuation; Thoma Bravo portfolio)* | Standard plan starting at **$825/month** (includes 25 users; additional users $33/user/month) | 30-day free cloud trial (full enterprise capability, up to 5 users) | Associative memory analytics engine enabling free-form multi-table data discovery |
+| **[ThoughtSpot](https://www.thoughtspot.com/)** 💡 | **~$4.5 Billion** *(Valuation; $150M+ ARR)* | Essentials plan starting at **$950/month** (includes 5 million query rows/month) | 30-day free trial with unlimited search queries and pre-built sample data | AI-powered natural language search analytics and automated insights for business users |
+| **[Sisense](https://www.sisense.com/)** ⚡ | **~$1.1 Billion** *(Valuation; $140M+ ARR)* | Starter tier starting at **$999/month** (includes up to 100K rows and 5 users) | 30-day free trial for Cloud/Self-Hosted deployment | White-label embedded analytics with customizable SDKs and In-Chip analytics engine |
+| **[Domo](https://www.domo.com/)** 🚀 | **~$400 Million** *(Public Market Cap; $320M+ ARR)* | Freemium base; paid consumption credits starting at **$300/month** | Free forever plan available (includes 300 credits/month, up to 5 users) | All-in-one business management platform combining low-code ETL, storage, and executive dashboards |
+| **[Mode Analytics (ThoughtSpot)](https://mode.com/)** 📈 | **~$200 Million** *(Acquired by ThoughtSpot for $200M in 2023)* | Enterprise custom contracts starting at **~$1,000/month** ($12,000/year base) | 14-day free trial with full SQL, Python, and R collaborative notebook capabilities | Collaborative code-first data science and SQL analytics with integrated interactive reports |
+| **[GoodData](https://www.gooddata.com/)** 🛠️ | **~$150 Million** *(Estimated Valuation / Private)* | Enterprise/Embedded tier starting at **$1,500/month** (includes unlimited users) | Free forever community tier (includes 1 workspace, 5 data sources, up to 100MB storage) | Headless BI and React/Angular SDK developer-first embedded analytics |
 
 ---
 
-### 🏗️ Warehouse-Native & dbt-Integrated
+## 🔓 Open-Source GitHub BI Projects
 
-- **Rill** ⚡  
-  Agent-first, human-friendly BI powered by OLAP engines.  
-  *Key features:* BI-as-code (YAML + SQL) — coding agents like Claude Code and Cursor can author projects, dashboards, and security policies end-to-end; semantic layer defined in YAML generating SQL at query time; MCP server connects AI agents directly to metrics; sub-second queries via ClickHouse (billions of rows) or DuckDB (smaller datasets); embeddable dashboards and APIs.  
-  *Deployment:* `curl https://rill.sh | sh` then `rill start my-project`.  
-  *Best for:* Teams wanting agent-assisted BI-as-code with real-time performance.
+Open-source BI platforms, semantic engines, and reporting frameworks sorted by **GitHub Stars** (descending):
 
-- **OrionBelt Semantic Layer** 🌌  
-  Open-source semantic sidecar compiling YAML models to optimized SQL across 8 engines. BSL-1.1 licensed, v2.7.6.  
-  *Supported engines:* BigQuery, ClickHouse, Databricks, Dremio, DuckDB, MySQL, PostgreSQL, Snowflake.  
-  *Connection surfaces:* REST API (FastAPI/OpenAPI), Arrow Flight SQL (JDBC/ODBC/Python), Postgres wire protocol (any psql/BI tool). 2,300+ tests, full CI, multi-dialect drift snapshots. MCP server for AI assistants.  
-  *Best for:* Teams needing a lightweight, embeddable semantic layer across multiple SQL dialects.
-
-- **SLayer** 🗡️  
-  Expressive, embeddable semantic layer for AI agents and humans. MIT licensed.  
-  *Key features:* Query expressions like `revenue:sum`, `revenue:avg`, `time_shift(revenue:sum, -1, 'year')` — no need to predefine every metric combination; database connectivity (read-only), SQL translation, common transformations, and row-level security handled for LLMs and humans; MCP, REST API, CLI, Python, Flight SQL, or Postgres-based SQL API interfaces; importers for dbt, Cube, and Ossie configs.  
-  *Best for:* Teams wanting a flexible semantic layer optimized for agentic search → inspect → query workflows.
-
----
-
-### 📦 Lightweight & Specialized BI
-
-- **Knowage** 🇮🇹  
-  Full open-source suite for Business Intelligence and Analytics. AGPL-3.0 licensed, stable.  
-  *Modules:* Enterprise Reporting for static reports; Smart Intelligence for self-service/ad-hoc BI; Location Intelligence combining business and spatial data; Performance Management for KPIs and scorecards; Custom Analytics with R/Python script embedding; Smart Data with Solr faceted search.  
-  *Used by:* Azienda Unità Locale Sanitaria di Modena, Enav S.p.A., Regione Emilia Romagna.  
-  *Best for:* Organizations wanting a comprehensive, modular BI suite with Italian government adoption.
-
-- **Edalitics** 🎯  
-  Open-source BI platform focused on simplicity for non-technical users. AGPL-3.0 licensed.  
-  *Key features:* No-code dashboard creation; advanced SQL query mode for power users; tree mode for exploring logical data models; KPI definitions with automatic email alerts; public dashboards shareable via URL; row-level security; clean, modern UI.  
-  *Tech stack:* Node.js, TypeScript, Angular, MongoDB.  
-  *Deployment:* `docker run -p 80:80 jortilles/eda:latest`.  
-  *Best for:* Non-technical users wanting to build dashboards without code.
-
-- **Grafana** 📈  
-  Open-source analytics and monitoring platform with strong time-series visualization. AGPL-3.0 licensed, 65,000+ GitHub_Stars.  
-  *Key features:* Real-time data visualization; multi-source support (MySQL, PostgreSQL, Elasticsearch, Prometheus); customizable dashboards with alerting; thousands of plugins; native macOS support.  
-  *Tradeoffs:* Less suitable for traditional business reporting; focuses on time-series data.  
-  *Best for:* Teams monitoring operational metrics, IoT data, or time-series business data.
-
-- **Redash** 🔴  
-  Open-source BI tool focused on query-driven dashboards. BSD-2-Clause licensed.  
-  *Key features:* Connect to any data source; write SQL queries; visualize with charts; build dashboards; share and schedule reports.  
-  *Best for:* Teams wanting a simple query-to-dashboard workflow.
-
-- **BIRT** ☕  
-  Open-source reporting and BI tool for embedding reports in Java applications. EPL-2.0 licensed.  
-  *Key features:* Drag-and-drop report designer; connects to any JDBC-compliant source; supports Big Data sources (Hadoop, MongoDB); export to PDF, Excel, HTML; built-in charting library.  
-  *Tradeoffs:* Older interface; steeper learning curve; better suited for developers than business users.  
-  *Best for:* Developers needing to embed reporting in Java applications.
-
-- **Pentaho** 🔄  
-  Open-source data integration and analytics platform. Apache-2.0 licensed (Community Edition).  
-  *Key features:* Data integration and ETL tools; visual report designer; interactive dashboards; multi-source connectivity; on-premise or cloud deployment.  
-  *Tradeoffs:* Complex setup; enterprise features require paid licenses; resource-intensive.  
-  *Best for:* Teams needing both data integration and BI in one platform.
-
----
-
-### 💡 Additional Strong Open-Source Options Summary
-
-- **Full BI:** Apache Superset (broadest warehouse coverage, embedded scale), Metabase (fastest setup), DataEase (Tableau alternative), Helical Insight (AI + pixel-perfect reports).
-- **dbt-Native:** Lightdash (open-source Looker, dbt YAML), Rill (agent-first BI-as-code).
-- **Semantic Layers:** OrionBelt (8 SQL dialects, Arrow Flight SQL), SLayer (flexible expressions for AI agents).
-- **Specialized:** Knowage (modular BI suite), Edalitics (no-code dashboards), Grafana (time-series), BIRT (embedded Java reporting), Pentaho (ETL + BI), Redash (query-driven).
-
-⚙️ **Frameworks for building custom systems:** Combine Apache Superset for broad warehouse coverage and embedded scale, Lightdash or Rill for dbt-native BI-as-code, Metabase for quick setup and non-technical users, OrionBelt or SLayer for semantic layers, and Helical Insight for AI analytics with pixel-perfect reporting. Add PostgreSQL for Superset/Metabase metadata and Docker for deployment.
+| Project | GitHub Stars 🌟 | License 📄 | Key Features & Architecture ⚡ | Best For 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Grafana](https://github.com/grafana/grafana)** 📈 | [<img src="https://img.shields.io/github/stars/grafana/grafana?style=social&color=white" alt="Grafana Stars"/>](https://github.com/grafana/grafana/stargazers) | AGPL-3.0 | Operational dashboards, real-time time-series visualization, Prometheus/SQL plugins, alerting engine | Infrastructure monitoring, APM metrics, IoT, and real-time operational BI |
+| **[Apache Superset](https://github.com/apache/superset)** 🔷 | [<img src="https://img.shields.io/github/stars/apache/superset?style=social&color=white" alt="Superset Stars"/>](https://github.com/apache/superset/stargazers) | Apache-2.0 | 40+ warehouse SQL connectors, stateless cloud-native horizontal scaling, Jinja SQL templating, fine-grained RLS | Enterprise-grade self-service BI and high-concurrency embedded analytics dashboards |
+| **[Metabase](https://github.com/metabase/metabase)** 🟢 | [<img src="https://img.shields.io/github/stars/metabase/metabase?style=social&color=white" alt="Metabase Stars"/>](https://github.com/metabase/metabase/stargazers) | AGPL-3.0 | 5-minute setup, no-code visual query builder, interactive dashboard filters, automated Slack/email alerts | Startups and non-technical teams needing instant self-service data exploration |
+| **[Redash](https://github.com/getredash/redash)** 🔴 | [<img src="https://img.shields.io/github/stars/getredash/redash?style=social&color=white" alt="Redash Stars"/>](https://github.com/getredash/redash/stargazers) | BSD-2-Clause | SQL query editor, parameterised queries, automatic visualization generation, REST API access | Data-savvy teams wanting simple, SQL-driven dashboarding and scheduled reporting |
+| **[DataEase](https://github.com/dataease/dataease)** 🎨 | [<img src="https://img.shields.io/github/stars/dataease/dataease?style=social&color=white" alt="DataEase Stars"/>](https://github.com/dataease/dataease/stargazers) | GPL-3.0 | Open-source Tableau alternative, drag-and-drop report layout, multi-source dataset blending | Organizations seeking a modern, visually rich self-service BI portal |
+| **[Cube](https://github.com/cube-js/cube)** 🧊 | [<img src="https://img.shields.io/github/stars/cube-js/cube?style=social&color=white" alt="Cube Stars"/>](https://github.com/cube-js/cube/stargazers) | Apache-2.0 | Universal semantic layer, code-first data modeling, pre-aggregations caching, GraphQL/REST/Postgres SQL API | Building scalable embedded analytics applications and AI context semantic layers |
+| **[PyGWalker](https://github.com/Kanaries/pygwalker)** 🐍 | [<img src="https://img.shields.io/github/stars/Kanaries/pygwalker?style=social&color=white" alt="PyGWalker Stars"/>](https://github.com/Kanaries/pygwalker/stargazers) | Apache-2.0 | Turns pandas/polars DataFrames into Tableau-style interactive UI within Jupyter Notebooks | Data scientists & Python analysts desiring instant visual EDA in notebooks |
+| **[Pentaho Data Integration](https://github.com/pentaho/pentaho-kettle)** 🔄 | [<img src="https://img.shields.io/github/stars/pentaho/pentaho-kettle?style=social&color=white" alt="Pentaho Stars"/>](https://github.com/pentaho/pentaho-kettle/stargazers) | Apache-2.0 | Enterprise ETL (Kettle), visual workflow designer, multi-database integration, legacy reporting engine | Heavy enterprise workflows requiring unified data integration, transformation, and BI |
+| **[Evidence](https://github.com/evidence-dev/evidence)** 📄 | [<img src="https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white" alt="Evidence Stars"/>](https://github.com/evidence-dev/evidence/stargazers) | MIT | Business Intelligence as Code, Markdown + SQL reports, version-controlled analytics via Git | Developers who prefer code-first BI reports rendered as static Markdown websites |
+| **[Lightdash](https://github.com/lightdash/lightdash)** ⚡ | [<img src="https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white" alt="Lightdash Stars"/>](https://github.com/lightdash/lightdash/stargazers) | MIT | Open-source Looker alternative, native dbt YAML semantic integration, automated metric lineage | Data teams operating on dbt who want code-governed BI metrics and dimensions |
+| **[Rill](https://github.com/rilldata/rill)** 🚀 | [<img src="https://img.shields.io/github/stars/rilldata/rill?style=social&color=white" alt="Rill Stars"/>](https://github.com/rilldata/rill/stargazers) | Apache-2.0 | BI-as-code (YAML+SQL), sub-second queries powered by DuckDB and ClickHouse, AI agent-ready | Fast operational analytics on fast OLAP engines with developer-centric workflows |
+| **[Helical Insight](https://github.com/helicalinsight/helicalinsight)** 🤖 | [<img src="https://img.shields.io/github/stars/helicalinsight/helicalinsight?style=social&color=white" alt="Helical Insight Stars"/>](https://github.com/helicalinsight/helicalinsight/stargazers) | AGPL-3.0 | BYO-LLM conversational AI analytics, pixel-perfect paginated financial reports, 360+ APIs | Enterprise teams needing AI text-to-chart BI alongside traditional canned reporting |
+| **[BIRT Engine](https://github.com/eclipse/birt)** ☕ | [<img src="https://img.shields.io/github/stars/eclipse/birt?style=social&color=white" alt="BIRT Stars"/>](https://github.com/eclipse/birt/stargazers) | EPL-2.0 | Eclipse-based Java reporting framework, XML report designs, PDF/Excel output generators | Software engineers embedding complex structured reporting into Java enterprise applications |
 
 ---
 
 ## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-5. ⭐ Star the repo if you find it useful!
+We welcome contributions from the data community! To add or update an entry:
+1. 🍴 **Fork** this repository.
+2. ✏️ Edit `README.md` following the table formatting rules.
+3. 🔍 Ensure descriptions remain objective, technical, and accurate.
+4. 🚀 Submit a **Pull Request** with a brief summary of the changes.
 
 ---
 
 ## 💖 Support
 
-Thank you for visiting and supporting this project! If you find this curated list helpful, please consider:
+Thank you for visiting and supporting this project! If you find this curated BI & Analytics guide helpful, please consider:
 - 🌟 **Starring** the repository on GitHub
-- 🍴 **Forking** it to keep your own reference
-- 📢 **Sharing** it with your colleagues and data community
-- ☕ **Sponsoring / Buying a coffee:** Consider supporting via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+- 🍴 **Forking** it to keep your own reference copy
+- 📢 **Sharing** it with colleagues, analytics engineers, and data teams
+- ☕ **Buying a Coffee / Sponsoring:** Support future maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
 
 ---
 
 ## ⚠️ Disclaimer
 
-This is a community-curated list — not exhaustive and not an endorsement.
-
-🔒 **Security & Governance:** BI platforms handle sensitive business and customer data; ensure proper access controls, row-level security, and compliance with data protection regulations.
-
-🌐 **Open-source reality:** The open-source ecosystem for Business Intelligence is exceptionally mature and production-proven. Apache Superset leads with 40+ warehouse connectors and stateless horizontal scaling for embedded analytics. Metabase is the fastest to deploy, querying data within 5 minutes. Lightdash is the open-source Looker alternative with native dbt integration. Rill brings agent-first BI-as-code with ClickHouse/DuckDB performance. Helical Insight delivers AI conversational analytics with pixel-perfect reporting. DataEase offers a Tableau alternative with 25k+ stars.
-
-However, commercial platforms (Power BI, Tableau, Looker, ThoughtSpot) provide polished visualization experiences, managed infrastructure, and enterprise support that open-source alternatives require additional configuration to match. The open-source path is genuinely viable for virtually every BI scenario, from single-user dashboards to embedded analytics serving thousands of concurrent users.
+This list is community-curated for informational and educational purposes. It does not constitute commercial endorsement. Always evaluate data security, row-level access permissions, SOC2 compliance, and governance requirements prior to deploying BI platforms in production environments.
 
 ---
 
-## 🌟 Star History
+## 📈 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Business-Intelligence-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Business-Intelligence-Analytics&type=date&legend=top-left)
 
 ---
 
-✨ *Made for data analysts, BI engineers, analytics leaders, and data platform teams.*  
-🚀 *Let's make business intelligence more open, transparent, and accessible.*
-
+✨ *Maintained for data analysts, BI engineers, analytics leaders, and data platform architects.*  
+🚀 *Let's build a more open, transparent, and code-driven Business Intelligence ecosystem.*
